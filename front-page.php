@@ -7,7 +7,7 @@
 	  	    <div class="primary-block-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
 	  	      	<div class="primary-block-text-content-container">
 	  	      	  	<h2>
-                        Hey there, <br>
+                        Hello there, <br>
                         My name is Krystof Marasek
 	  	      	  	</h2>
 	  	      	  	<p>
