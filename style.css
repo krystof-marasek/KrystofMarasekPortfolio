@@ -11756,15 +11756,14 @@ textarea.form-control-lg {
   }
 }
 h1, .h1 {
-  font-size: 54px;
-  text-align: left;
-  font-weight: 600;
+  font-size: 48px;
+  font-weight: bold;
   letter-spacing: 0px;
 }
 
 h2, .h2 {
   font-size: 38px;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 0px;
 }
 
@@ -11960,6 +11959,80 @@ body {
   align-items: center;
   height: 327px;
   border: 6px solid var(--bs-primary);
+}
+
+.choose-ability-component {
+  background-color: var(--bs-secondary-background);
+  margin: 0;
+}
+.choose-ability-component .choose-ability-container {
+  width: 50%;
+}
+.choose-ability-component .choose-ability-container .choose-ability-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.choose-ability-component .choose-ability-container .choose-ability-text-container h1, .choose-ability-component .choose-ability-container .choose-ability-text-container .h1 {
+  text-align: center;
+  color: var(--bs-header-text);
+  margin-bottom: 15px;
+}
+.choose-ability-component .choose-ability-container .choose-ability-text-container p {
+  text-align: center;
+  color: var(--bs-text);
+  margin: 0;
+}
+.choose-ability-component .divider-row {
+  padding: 20px 0 40px 0;
+}
+.choose-ability-component .divider-row #divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-ability-component .divider-row #divider-container #divider {
+  background-color: var(--bs-primary);
+  width: 200px;
+  height: 3px;
+}
+.choose-ability-component .filter-row {
+  padding: 20px 0 40px 0;
+}
+.choose-ability-component .filter-row .filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-ability-component .filter-row .filters a {
+  text-decoration: none;
+}
+.choose-ability-component .filter-row .filters a .filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.choose-ability-component .filter-row .filters a .filter-container .filter-btn {
+  display: flex;
+  justify-content: center;
+}
+.choose-ability-component .filter-row .filters a .filter-container .filter-btn img {
+  height: 65%;
+  width: 65%;
+}
+.choose-ability-component .filter-row .filters a .filter-container .filter-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.choose-ability-component .filter-row .filters a .filter-container .filter-name .filter-name-text {
+  text-align: center;
+  color: var(--bs-header-text);
+  font-weight: bold;
+  width: 100%;
 }
 
 /****************** SECONDARY BLOCK ******************/

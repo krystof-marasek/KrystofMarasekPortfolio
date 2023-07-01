@@ -1,5 +1,7 @@
 <?php get_header();?>
 
+<!-- INTRODUCTION -->
+
 <div class="primary-block-component container-fluid overflow-hidden">
 	<div class="container">
 	  	<div class="row d-flex">
@@ -28,31 +30,77 @@
 	</div>
 </div>
 
-<div class="secondary-block-component container-fluid overflow-hidden">
-	<div class="container">
-	  	<div class="row d-flex">
+<!-- CHOOSE AN ABILITY -->
 
-	  	    <div class="secondary-block-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
-	  	      	<div class="secondary-block-text-content-container">
-	  	      	  	<h2>
-                        Incursio - Short Movie
-	  	      	  	</h2>
-	  	      	  	<p>
-                        Together with four other students, I worked on a short movie called Incursio. I wrote the script, directed the film and helped with editing.
-                    </p>
-	  	      	  	<div class="secondary-block-text-button col-12 d-flex justify-content-start align-item-center">
-		    			<a href="https://youtu.be/xk0QxRJf6QA"><button type="button" class="btn btn-primary">See More</button></a>
-	  	      	  	</div>
-	  	      	</div>
-	  	    </div>
-            <div class="secondary-block-video col-xl-6 col-lg-10 col-12 d-flex align-items-center">
-                <div class="showcase-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xk0QxRJf6QA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="choose-ability-component container-fluid">
+  
+	<div class="choose-ability-row g-0 container">
+		<div class="row d-flex justify-content-between align-items-start">
+			<div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
+				<div class="choose-ability-container d-flex flex-column justify-content-between">
+					<div class="choose-ability-text-container">
+						<h1>CHOOSE AN ABILITY</h1>
+					</div>
+					<div class="choose-ability-text-container d-flex flex-column align-items-center">
+						<p>What projects that I have worked on <br>would you like to see?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <div class="divider-row row g-0">
+            <div class="col-3 col-sm-5 p-0"></div>
+            <div class="col-6 col-sm-2 p-0">
+                <div id="divider-container">
+                    <div id="divider"></div>
                 </div>
-	  	    </div>
-
+            </div>
+            <div class="col-3 col-sm-5 p-0"></div>
         </div>
+
+        <div class="filter-row row g-0">
+            <div class="filters">
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/web-development">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Web Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/video-production">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/VideoProduction.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Video Production</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/video-game-design">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Video Game Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
 	</div>
+
 </div>
 
 <?php get_footer();
