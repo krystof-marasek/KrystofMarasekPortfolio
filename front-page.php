@@ -32,7 +32,7 @@
 
 <!-- CHOOSE AN ABILITY -->
 
-<div class="choose-ability-component container-fluid">
+<div id="my-abilities" class="choose-ability-component container-fluid">
   
 	<div class="choose-ability-row g-0 container">
 		<div class="row d-flex justify-content-between align-items-start">

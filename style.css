@@ -11832,6 +11832,14 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  /* .current-menu-item {
+      a {
+          font-size: 18px;
+          letter-spacing: 0px;
+          color: var(--bs-primary);
+          text-decoration: none;
+      }
+  } */
 }
 .header .header-navigation #primary-menu li {
   margin: 0 15px;
@@ -11846,12 +11854,6 @@ body {
 }
 .header .header-navigation #primary-menu li a:hover {
   color: var(--bs-primary);
-}
-.header .header-navigation #primary-menu .current-menu-item a {
-  font-size: 18px;
-  letter-spacing: 0px;
-  color: var(--bs-primary);
-  text-decoration: none;
 }
 
 /****************** MOBILE HEADER ******************/
@@ -11881,6 +11883,15 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  /* .current-menu-item {
+      a {
+          width: 100%;
+          height: 100%;
+          letter-spacing: 0px;
+          color: var(--bs-primary);
+          text-decoration: none;
+      }
+  } */
 }
 .mobile-navigation ul li {
   margin: 15px 0;
@@ -11899,13 +11910,6 @@ body {
 }
 .mobile-navigation ul li a:hover {
   color: var(--bs-primary);
-}
-.mobile-navigation ul .current-menu-item a {
-  width: 100%;
-  height: 100%;
-  letter-spacing: 0px;
-  color: var(--bs-primary);
-  text-decoration: none;
 }
 .mobile-navigation .offcanvas {
   background-color: var(--bs-dark-green);
@@ -11961,8 +11965,9 @@ body {
   border: 6px solid var(--bs-primary);
 }
 
+/****************** CHOOSE AN ABILITY ******************/
 .choose-ability-component {
-  background-color: var(--bs-secondary-background);
+  background-color: var(--bs-primary-background);
   margin: 0;
 }
 .choose-ability-component .choose-ability-container {
@@ -12035,10 +12040,91 @@ body {
   width: 100%;
 }
 
+/****************** ABILITY INTRODUCTION ******************/
+.ability-introduction-component {
+  background-color: var(--bs-primary-background);
+  padding: 100px 0 30px 0;
+}
+.ability-introduction-component .ability-introduction-container {
+  width: 50%;
+}
+.ability-introduction-component .ability-introduction-container .ability-introduction-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ability-introduction-component .ability-introduction-container .ability-introduction-text-container h1, .ability-introduction-component .ability-introduction-container .ability-introduction-text-container .h1 {
+  text-align: center;
+  color: var(--bs-header-text);
+  margin-bottom: 15px;
+}
+.ability-introduction-component .ability-introduction-container .ability-introduction-text-container p {
+  text-align: center;
+  color: var(--bs-text);
+  margin: 0;
+}
+.ability-introduction-component .divider-row {
+  padding-top: 20px;
+}
+.ability-introduction-component .divider-row #divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ability-introduction-component .divider-row #divider-container #divider {
+  background-color: var(--bs-primary);
+  width: 200px;
+  height: 3px;
+}
+
+/****************** ABILITY MENU ******************/
+.ability-menu-component {
+  background-color: var(--bs-primary-background);
+  padding: 30px 0 30px 0;
+}
+.ability-menu-component .filter-row {
+  padding: 20px 0 20px 0;
+}
+.ability-menu-component .filter-row .filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ability-menu-component .filter-row .filters a {
+  text-decoration: none;
+}
+.ability-menu-component .filter-row .filters a .filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ability-menu-component .filter-row .filters a .filter-container .filter-btn {
+  display: flex;
+  justify-content: center;
+}
+.ability-menu-component .filter-row .filters a .filter-container .filter-btn img {
+  height: 65%;
+  width: 65%;
+}
+.ability-menu-component .filter-row .filters a .filter-container .filter-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.ability-menu-component .filter-row .filters a .filter-container .filter-name .filter-name-text {
+  text-align: center;
+  color: var(--bs-header-text);
+  font-weight: bold;
+  width: 100%;
+}
+
 /****************** SECONDARY BLOCK ******************/
 .secondary-block-component {
   background-color: var(--bs-secondary-background);
-  padding: 100px 0 50px 0;
+  padding: 80px 0 80px 0;
 }
 .secondary-block-component .row {
   padding: 30px 0;
@@ -12075,4 +12161,42 @@ body {
   align-items: center;
   height: 327px;
   border: 6px solid var(--bs-primary);
+}
+
+/****************** FOOTER ******************/
+.footer {
+  background-color: var(--bs-primary-background);
+}
+.footer .footer-row {
+  display: flex;
+  background-color: var(--bs-primary-background);
+}
+.footer .footer-row .social-links {
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-row .social-links .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115px;
+  width: 100%;
+}
+.footer .footer-row .social-links .social-container .social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+}
+.footer .footer-row .social-links .social-container .social a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.footer .footer-row .social-links .social-container .social a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50%;
+  width: 50%;
 }

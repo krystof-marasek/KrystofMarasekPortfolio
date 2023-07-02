@@ -12,19 +12,24 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'krystof-marasek' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'krystof-marasek' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'krystof-marasek' ), 'krystof-marasek', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="footer">
+		    <div class="footer-container container-xl container-lg container-fluid">
+		        <div class="footer-row row g-0 d-flex col-lg-12 align-items-center">
+
+					<div class="social-links">
+                	    <div class="social-container">
+                	        <div class="social">
+                	            <a href="https://linkedin.com/in/krystof-marasek" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.svg" alt=""></a>
+                	            <a href="https://www.youtube.com/channel/UCwCNVn2brnJdMAb2BgMHeBw" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.svg" alt=""></a>
+                	            <a href="https://krystof-marasek.itch.io" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/itchio.svg" alt=""></a>
+                	            <a href="https://github.com/krystof-marasek" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt=""></a>
+                	        </div>
+                	    </div>
+                	</div>
+
+		        </div>
+		    </div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
