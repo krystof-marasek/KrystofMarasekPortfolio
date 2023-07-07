@@ -2965,7 +2965,7 @@ textarea.form-control-lg {
 }
 .btn:hover {
   color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
+  background-color: #FF4A57;
   border-color: var(--bs-btn-hover-border-color);
 }
 .btn-check + .btn:hover {
@@ -11787,12 +11787,16 @@ p {
 .btn-primary {
   text-align: left;
   font-size: 18px;
-  font-weight: medium;
   letter-spacing: 0px;
   color: var(--bs-header-text);
   border: 2px solid var(--bs-primary);
+  background-color: transparent;
   border-radius: 25px;
   text-decoration: none;
+}
+.btn-primary:hover {
+  color: var(--bs-header-text);
+  background-color: var(--bs-primary);
 }
 
 body {
@@ -11952,10 +11956,7 @@ body {
 .primary-block-component .row .primary-block-text-container p {
   color: var(--bs-text);
   margin: 20px 0 20px 10px !important;
-  width: 80%;
-}
-.primary-block-component .row .primary-block-text-container .btn-primary {
-  background-color: var(--bs-secondary-background);
+  width: 90%;
 }
 .primary-block-component .row .primary-block-video .introduction-video {
   display: flex;
@@ -11965,10 +11966,11 @@ body {
   border: 6px solid var(--bs-primary);
 }
 
-/****************** CHOOSE AN ABILITY ******************/
+/****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 .choose-ability-component {
   background-color: var(--bs-primary-background);
   margin: 0;
+  padding-top: 40px;
 }
 .choose-ability-component .choose-ability-container {
   width: 50%;
@@ -12152,15 +12154,145 @@ body {
   margin: 20px 0 20px 10px !important;
   width: 80%;
 }
-.secondary-block-component .row .secondary-block-text-container .btn-primary {
-  background-color: var(--bs-secondary-background);
-}
 .secondary-block-component .row .secondary-block-video .showcase-video {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 327px;
   border: 6px solid var(--bs-primary);
+}
+
+/****************** CONTACT ME ******************/
+.contact-me-component {
+  background-color: var(--bs-secondary-background);
+  padding: 40px 0;
+}
+.contact-me-component .contact-me-header-container {
+  width: 50%;
+}
+.contact-me-component .contact-me-header-container .contact-me-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-me-component .contact-me-header-container .contact-me-header h1, .contact-me-component .contact-me-header-container .contact-me-header .h1 {
+  text-align: center;
+  color: var(--bs-header-text);
+  margin-bottom: 15px;
+}
+.contact-me-component .contact-me {
+  display: flex;
+  width: 100%;
+}
+.contact-me-component .contact-me .contacts {
+  background-color: var(--bs-secondary-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me-component .contact-me .contacts .contacts-container {
+  background-color: var(--bs-primary-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container .contacts-text {
+  color: var(--bs-header-text);
+  margin: 0;
+}
+.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container .contacts-text a {
+  color: var(--bs-header-text);
+  text-decoration: none;
+}
+.contact-me-component .contact-me .contacts .contacts-container .email-box {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  color: var(--bs-header-text);
+}
+.contact-me-component .contact-me .contacts .contacts-container .email-box img {
+  width: 10%;
+  margin-right: 10px;
+}
+.contact-me-component .contact-me .contacts .contacts-container .message-box {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-text {
+  color: var(--bs-header-text);
+  margin: 0;
+}
+.contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-text a {
+  color: var(--bs-header-text);
+  text-decoration: none;
+}
+.contact-me-component .contact-me .contacts .contacts-container .message-box img {
+  width: 10%;
+  margin-right: 10px;
+}
+.contact-me-component .contact-me .contacts #message {
+  margin-left: 14px;
+}
+.contact-me-component .contact-me .contacts #email {
+  margin-right: 14px;
+}
+.contact-me-component .wpforms-container {
+  width: 100%;
+  margin: 0;
+}
+.contact-me-component .wpforms-container .wpforms-field {
+  padding: 10px 0;
+}
+.contact-me-component .wpforms-container .wpforms-field input {
+  padding: 25px 15px;
+  border-radius: 10px;
+  border-color: var(--bs-secondary-background);
+  background-color: var(--bs-primary-background);
+  color: var(--bs-header-text);
+  font-size: 20px;
+}
+.contact-me-component .wpforms-container .wpforms-field textarea {
+  border-radius: 10px;
+  border-color: var(--bs-secondary-background);
+  background-color: var(--bs-primary-background);
+  color: var(--bs-header-text) !important;
+  font-size: 20px;
+}
+.contact-me-component .wpforms-container .wpforms-submit-container {
+  margin: 0 !important;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+  color: var(--bs-header-text);
+  border: 2px solid var(--bs-primary);
+  background-color: transparent !important;
+  font-size: 18px;
+  width: 10%;
+  border-radius: 25px;
+}
+.contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit:hover {
+  color: var(--bs-header-text) !important;
+  background-color: var(--bs-primary) !important;
+}
+.contact-me-component .wpforms-container ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: var(--bs-text) !important;
+  opacity: 1 !important;
+}
+.contact-me-component .wpforms-container ::placeholder {
+  color: var(--bs-text) !important;
 }
 
 /****************** FOOTER ******************/

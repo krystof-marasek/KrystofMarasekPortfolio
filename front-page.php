@@ -13,7 +13,7 @@
                         My name is Krystof Marasek
 	  	      	  	</h2>
 	  	      	  	<p>
-                        I am a Multimedia Designer experienced mainly in Web Design & Development, Video Production and Video Game Design.	  	  	  	  	
+                        I am a Multimedia Designer experienced mainly in Web Development, Video Production, and Video Game Design.	  	  	  	  	
                     </p>
 	  	      	  	<div class="primary-block-text-button col-12 d-flex justify-content-start align-item-center">
 		    			<a href=""><button type="button" class="btn btn-primary">Read More</button></a>
@@ -99,6 +99,78 @@
             </div>
         </div>
 
+	</div>
+
+</div>
+
+<!-- CONTACT ME -->
+
+<div class="contact-me-component container-fluid">
+  
+	<div class="contact-me-row g-0 container">
+		<div class="row d-flex justify-content-between align-items-start">
+			<div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
+				<div class="contact-me-header-container d-flex flex-column justify-content-between">
+					<div class="contact-me-header">
+                        <h1>CONTACT ME</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="contact-me-row g-0 container">
+		<div class="row d-flex justify-content-between align-items-start">
+            <div class="contact-me-container col-lg-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+
+                <div class="contact-me">
+
+                    <div class="col-12 col-sm-6 p-0">
+                        <div class="contacts" data-aos="zoom-in" data-aos-duration="500">
+                            <div id="email" class="contacts-container">
+                                <div class="email-box">
+                                    <div class="contacts-text-container">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/emailme.svg" alt="">
+                                        <!-- <p class="contacts-text">Email Me</p> -->
+                                    </div>
+                                </div>
+                                <div class="email-box">
+                                    <p class="contacts-text">krystofmarasek@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 p-0">
+                        <div class="contacts">
+                            <div id="message" class="contacts-container">
+                                <div class="message-box">
+                                    <div class="contacts-text-container">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.svg" alt="">
+                                        <!-- <p class="contacts-text"><a href="https://linkedin.com/in/krystof-marasek">Message Me</a></p> -->
+                                    </div>
+                                </div>
+                                <div class="message-box">
+                                    <p class="contacts-text"><a href="https://linkedin.com/in/krystof-marasek">Kryštof Marášek</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+	        </div>
+        </div>
+	</div>
+
+    <div class="contact-me-row g-0 container">
+		<div class="row d-flex justify-content-between align-items-start">
+            <div class="contact-me-container col-lg-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+
+                <?php echo do_shortcode('[wpforms id="50"]'); ?>
+
+	        </div>
+        </div>
 	</div>
 
 </div>

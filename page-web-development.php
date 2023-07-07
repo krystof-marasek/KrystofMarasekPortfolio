@@ -1,5 +1,7 @@
 <?php get_header();?>
 
+<!-- ABILITY INTRODUCTION -->
+
 <div class="ability-introduction-component container-fluid">
   
 	<div class="ability-introduction-row g-0 container">
@@ -10,7 +12,7 @@
 						<h1>WEB DEVELOPMENT</h1>
 					</div>
 					<div class="ability-introduction-text-container d-flex flex-column align-items-center">
-						<p>Here are all the web related projects I have worked on:</p>
+						<p>Here are all the web development related projects I have worked on:</p>
 					</div>
 				</div>
 			</div>
@@ -35,5 +37,55 @@
 		<?php the_content() ?>
 	<?php endwhile; ?>
 <?php endif; ?>
+
+<!-- ABILITY MENU -->
+
+<div class="ability-menu-component container-fluid">
+  
+	<div class="ability-menu-row g-0 container">
+		<div class="filter-row row g-0">
+            <div class="filters">
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/web-development">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Web Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/video-production">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/VideoProduction.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Video Production</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 p-0">
+                    <a href="/video-game-design">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Video Game Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+	</div>
+
+</div>
 
 <?php get_footer();

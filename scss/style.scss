@@ -233,11 +233,7 @@ body {
             p{
                 color: var(--bs-text);
                 margin: 20px 0 20px 10px!important;
-                width: 80%;
-            }
-
-            .btn-primary {
-                background-color: var(--bs-secondary-background);
+                width: 90%;
             }
         }
 
@@ -253,11 +249,12 @@ body {
     }
 }
 
-/****************** CHOOSE AN ABILITY ******************/
+/****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 
 .choose-ability-component{
     background-color: var(--bs-primary-background);
     margin: 0;
+    padding-top: 40px;
 
     .choose-ability-container {
         width: 50%;
@@ -475,10 +472,6 @@ body {
                 margin: 20px 0 20px 10px!important;
                 width: 80%;
             }
-
-            .btn-primary {
-                background-color: var(--bs-secondary-background);
-            }
         }
 
         .secondary-block-video {
@@ -490,6 +483,183 @@ body {
                 border: 6px solid var(--bs-primary);
             }
         }
+    }
+}
+
+/****************** CONTACT ME ******************/
+
+.contact-me-component{
+    background-color: var(--bs-secondary-background);
+    padding: 40px 0;
+
+    .contact-me-header-container {
+        width: 50%;
+    
+        .contact-me-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h1 {
+                text-align: center;
+                color: var(--bs-header-text);
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .contact-me {
+        display: flex;
+        width: 100%;
+
+        .contacts {
+        background-color: var(--bs-secondary-background);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+            .contacts-container {
+                background-color: var(--bs-primary-background);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 20px;
+
+                .contacts-text-container {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    .contacts-text {
+                        color: var(--bs-header-text);
+                        margin: 0;
+    
+                        a {
+                            color: var(--bs-header-text);
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .email-box {
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    color: var(--bs-header-text);
+
+                    img {
+                        width: 10%;
+                        margin-right: 10px;
+                    }
+                }
+
+                .message-box {
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+
+                    .contacts-text {
+                        color: var(--bs-header-text);
+                        margin: 0;
+    
+                        a {
+                            color: var(--bs-header-text);
+                            text-decoration: none;
+                        }
+                    }
+
+                    img {
+                        width: 10%;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            #message {
+                margin-left: 14px;
+            }
+
+            #email {
+                margin-right: 14px;
+            }
+        }
+    }
+
+    .wpforms-container {
+        width: 100%;
+        margin: 0;
+
+        .wpforms-field {
+            padding: 10px 0;
+
+            input {
+                padding: 25px 15px;
+                border-radius: 10px;
+                border-color: var(--bs-secondary-background);
+                background-color: var(--bs-primary-background);
+                color: var(--bs-header-text);
+                font-size: 20px;
+            }
+
+            textarea {
+                border-radius: 10px;
+                border-color: var(--bs-secondary-background);
+                background-color: var(--bs-primary-background);
+                color: var(--bs-header-text) !important;
+                font-size: 20px;
+            }
+        }
+
+        .wpforms-submit-container {
+            margin: 0 !important;
+            display: flex;
+            justify-content: flex-start;
+
+            .wpforms-submit {
+                color: var(--bs-header-text);
+                border: 2px solid var(--bs-primary);
+                background-color: transparent !important;
+                font-size: 18px;
+                width: 10%;
+                border-radius: 25px;
+
+                &:hover {
+                    color: var(--bs-header-text) !important;
+                    background-color: var(--bs-primary) !important;
+                }
+            }
+        }
+    }
+
+    .wpforms-container ::-webkit-input-placeholder { /* Chrome and Safari */
+        color: var(--bs-text) !important;
+    }
+      
+    .wpforms-container :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: var(--bs-text) !important;
+        opacity: 1 !important;
+    }
+      
+    .wpforms-container ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: var(--bs-text) !important;
+        opacity: 1 !important;
+    }
+      
+    .wpforms-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: var(--bs-text) !important;
+    }
+      
+    .wpforms-container ::-ms-input-placeholder { /* Microsoft Edge */
+        color: var(--bs-text) !important;
+    }
+      
+    .wpforms-container ::placeholder {
+        color: var(--bs-text) !important;
     }
 }
 
