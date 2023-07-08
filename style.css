@@ -12202,19 +12202,6 @@ body {
   padding: 20px;
   margin-bottom: 20px;
 }
-.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container .contacts-text {
-  color: var(--bs-header-text);
-  margin: 0;
-}
-.contact-me-component .contact-me .contacts .contacts-container .contacts-text-container .contacts-text a {
-  color: var(--bs-header-text);
-  text-decoration: none;
-}
 .contact-me-component .contact-me .contacts .contacts-container .email-box {
   display: flex;
   justify-content: center;
@@ -12223,24 +12210,38 @@ body {
 }
 .contact-me-component .contact-me .contacts .contacts-container .email-box img {
   width: 10%;
-  margin-right: 10px;
+}
+.contact-me-component .contact-me .contacts .contacts-container .email-box .contacts-icon-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact-me-component .contact-me .contacts .contacts-container .email-box .contacts-text {
+  color: var(--bs-header-text);
+  margin: 0;
+  padding-top: 18px;
 }
 .contact-me-component .contact-me .contacts .contacts-container .message-box {
   display: flex;
   justify-content: center;
   width: 90%;
 }
+.contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-icon-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-text {
   color: var(--bs-header-text);
   margin: 0;
+  padding-top: 16px;
 }
 .contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-text a {
   color: var(--bs-header-text);
   text-decoration: none;
 }
 .contact-me-component .contact-me .contacts .contacts-container .message-box img {
-  width: 10%;
-  margin-right: 10px;
+  width: 8%;
 }
 .contact-me-component .contact-me .contacts #message {
   margin-left: 14px;
