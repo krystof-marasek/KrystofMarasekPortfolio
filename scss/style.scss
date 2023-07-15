@@ -249,6 +249,66 @@ body {
     }
 }
 
+/****************** FRONT PAGE - ABOUT ME ******************/
+
+.about-me-block-component {
+    background-color: var(--bs-secondary-background);
+    margin: 60px 0;
+
+    .about-me-header-row {
+        padding: 30px 0;
+
+        .about-me-header-container {
+            width: 50%;
+        
+            .about-me-header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+        
+                h1 {
+                    text-align: center;
+                    color: var(--bs-header-text);
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+    .about-me-row{
+        padding-bottom: 30px;
+
+        .about-me-block-image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .about-me-block-text-container {
+            width: 50%;
+            
+            h2 {
+                color: var(--bs-header-text);
+                text-align: left;
+                margin: 0 0 0 10px;
+                width: 95%;
+            }
+
+            p {
+                color: var(--bs-text);
+                margin: 20px 0 20px 10px!important;
+                width: 95%;
+            }
+        }
+    }
+}
+
 /****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 
 .choose-ability-component{
@@ -601,16 +661,16 @@ body {
             input {
                 padding: 25px 15px;
                 border-radius: 10px;
-                border-color: var(--bs-secondary-background);
-                background-color: var(--bs-primary-background);
-                color: var(--bs-header-text);
+                border-color: var(--bs-secondary-background) !important;
+                background-color: var(--bs-primary-background) !important;
+                color: var(--bs-header-text) !important;
                 font-size: 20px;
             }
 
             textarea {
                 border-radius: 10px;
-                border-color: var(--bs-secondary-background);
-                background-color: var(--bs-primary-background);
+                border-color: var(--bs-secondary-background) !important;
+                background-color: var(--bs-primary-background) !important;
                 color: var(--bs-header-text) !important;
                 font-size: 20px;
             }
@@ -634,6 +694,13 @@ body {
                     background-color: var(--bs-primary) !important;
                 }
             }
+        }
+
+        #wpforms-confirmation-50 {
+            background: var(--bs-primary-background) !important;
+            border: 1px solid var(--bs-primary) !important;
+            color: var(--bs-header-text) !important;
+            border-radius: 10px !important;
         }
     }
 
