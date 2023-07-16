@@ -204,7 +204,7 @@ body {
 
 .primary-block-component {
     background-color: var(--bs-secondary-background);
-    padding: 100px 0 50px 0;
+    padding: 200px 12px 125px 12px;
 
     .row{
         padding: 30px 0;
@@ -252,8 +252,8 @@ body {
 /****************** FRONT PAGE - ABOUT ME ******************/
 
 .about-me-block-component {
-    background-color: var(--bs-secondary-background);
-    margin: 60px 0;
+    background-color: var(--bs-primary-background);
+    padding: 0 12px 0 12px;
 
     .about-me-header-row {
         padding: 30px 0;
@@ -309,12 +309,44 @@ body {
     }
 }
 
+/****************** FRONT PAGE - NEWS FEED ******************/
+
+.news-feed-block-component {
+    background-color: var(--bs-secondary-background);
+    padding: 0 12px 0 12px;
+
+    .news-feed-row {
+
+        .card {
+            background-color: var(--bs-primary-background);
+            
+            border: none;
+
+            .card-img-top {
+                height: 325px;
+                object-fit: cover;
+            }
+
+            .card-body {
+                border-top: 3px solid var(--bs-primary);
+
+                .card-title {
+                    color: var(--bs-header-text);
+                }
+
+                .card-text {
+                    color: var(--bs-text);
+                }
+            }
+        }
+    }
+}
+
 /****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 
 .choose-ability-component{
     background-color: var(--bs-primary-background);
-    margin: 0;
-    padding-top: 40px;
+    padding: 40px 12px 0 12px;
 
     .choose-ability-container {
         width: 50%;
@@ -402,14 +434,14 @@ body {
 
 /****************** ABILITY INTRODUCTION ******************/
 
-.ability-introduction-component{
+.header-divider-component{
     background-color: var(--bs-primary-background);
-    padding: 100px 0 30px 0;
+    padding: 100px 12px 30px 12px;
 
-    .ability-introduction-container {
+    .header-divider-container {
         width: 50%;
     
-        .ability-introduction-text-container {
+        .header-divider-text-container {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -450,7 +482,7 @@ body {
 
 .ability-menu-component{
     background-color: var(--bs-primary-background);
-    padding: 30px 0 30px 0;
+    padding: 30px 12px 30px 12px;
 
     .filter-row {
         padding: 20px 0 20px 0;
@@ -501,7 +533,7 @@ body {
 
 .secondary-block-component {
     background-color: var(--bs-secondary-background);
-    padding: 80px 0 80px 0;
+    padding: 80px 12px 80px 12px;
 
     .row{
         padding: 30px 0;
@@ -550,7 +582,7 @@ body {
 
 .contact-me-component{
     background-color: var(--bs-secondary-background);
-    padding: 40px 0;
+    padding: 40px 12px;
 
     .contact-me-header-container {
         width: 50%;

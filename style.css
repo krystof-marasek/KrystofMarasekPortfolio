@@ -11930,7 +11930,7 @@ body {
 /****************** PRIMARY BLOCK ******************/
 .primary-block-component {
   background-color: var(--bs-secondary-background);
-  padding: 100px 0 50px 0;
+  padding: 200px 12px 125px 12px;
 }
 .primary-block-component .row {
   padding: 30px 0;
@@ -11968,8 +11968,8 @@ body {
 
 /****************** FRONT PAGE - ABOUT ME ******************/
 .about-me-block-component {
-  background-color: var(--bs-secondary-background);
-  margin: 60px 0;
+  background-color: var(--bs-primary-background);
+  padding: 0 12px 0 12px;
 }
 .about-me-block-component .about-me-header-row {
   padding: 30px 0;
@@ -12015,11 +12015,34 @@ body {
   width: 95%;
 }
 
+/****************** FRONT PAGE - NEWS FEED ******************/
+.news-feed-block-component {
+  background-color: var(--bs-secondary-background);
+  padding: 0 12px 0 12px;
+}
+.news-feed-block-component .news-feed-row .card {
+  background-color: var(--bs-primary-background);
+  border: none;
+}
+.news-feed-block-component .news-feed-row .card .card-img-top {
+  height: 325px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news-feed-block-component .news-feed-row .card .card-body {
+  border-top: 3px solid var(--bs-primary);
+}
+.news-feed-block-component .news-feed-row .card .card-body .card-title {
+  color: var(--bs-header-text);
+}
+.news-feed-block-component .news-feed-row .card .card-body .card-text {
+  color: var(--bs-text);
+}
+
 /****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 .choose-ability-component {
   background-color: var(--bs-primary-background);
-  margin: 0;
-  padding-top: 40px;
+  padding: 40px 12px 0 12px;
 }
 .choose-ability-component .choose-ability-container {
   width: 50%;
@@ -12092,38 +12115,38 @@ body {
 }
 
 /****************** ABILITY INTRODUCTION ******************/
-.ability-introduction-component {
+.header-divider-component {
   background-color: var(--bs-primary-background);
-  padding: 100px 0 30px 0;
+  padding: 100px 12px 30px 12px;
 }
-.ability-introduction-component .ability-introduction-container {
+.header-divider-component .header-divider-container {
   width: 50%;
 }
-.ability-introduction-component .ability-introduction-container .ability-introduction-text-container {
+.header-divider-component .header-divider-container .header-divider-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.ability-introduction-component .ability-introduction-container .ability-introduction-text-container h1, .ability-introduction-component .ability-introduction-container .ability-introduction-text-container .h1 {
+.header-divider-component .header-divider-container .header-divider-text-container h1, .header-divider-component .header-divider-container .header-divider-text-container .h1 {
   text-align: center;
   color: var(--bs-header-text);
   margin-bottom: 15px;
 }
-.ability-introduction-component .ability-introduction-container .ability-introduction-text-container p {
+.header-divider-component .header-divider-container .header-divider-text-container p {
   text-align: center;
   color: var(--bs-text);
   margin: 0;
 }
-.ability-introduction-component .divider-row {
+.header-divider-component .divider-row {
   padding-top: 20px;
 }
-.ability-introduction-component .divider-row #divider-container {
+.header-divider-component .divider-row #divider-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.ability-introduction-component .divider-row #divider-container #divider {
+.header-divider-component .divider-row #divider-container #divider {
   background-color: var(--bs-primary);
   width: 200px;
   height: 3px;
@@ -12132,7 +12155,7 @@ body {
 /****************** ABILITY MENU ******************/
 .ability-menu-component {
   background-color: var(--bs-primary-background);
-  padding: 30px 0 30px 0;
+  padding: 30px 12px 30px 12px;
 }
 .ability-menu-component .filter-row {
   padding: 20px 0 20px 0;
@@ -12175,7 +12198,7 @@ body {
 /****************** SECONDARY BLOCK ******************/
 .secondary-block-component {
   background-color: var(--bs-secondary-background);
-  padding: 80px 0 80px 0;
+  padding: 80px 12px 80px 12px;
 }
 .secondary-block-component .row {
   padding: 30px 0;
@@ -12214,7 +12237,7 @@ body {
 /****************** CONTACT ME ******************/
 .contact-me-component {
   background-color: var(--bs-secondary-background);
-  padding: 40px 0;
+  padding: 40px 12px;
 }
 .contact-me-component .contact-me-header-container {
   width: 50%;

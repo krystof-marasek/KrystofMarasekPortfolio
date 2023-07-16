@@ -2,16 +2,16 @@
 
 <!-- ABILITY INTRODUCTION -->
 
-<div class="ability-introduction-component container-fluid">
+<div class="header-divider-component container-fluid">
   
-	<div class="ability-introduction-row g-0 container">
+	<div class="header-divider-row g-0 container">
 		<div class="row d-flex justify-content-between align-items-start">
 			<div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
-				<div class="ability-introduction-container d-flex flex-column justify-content-between">
-					<div class="ability-introduction-text-container">
+				<div class="header-divider-container d-flex flex-column justify-content-between">
+					<div class="header-divider-text-container">
 						<h1>VIDEO GAME DESIGN</h1>
 					</div>
-					<div class="ability-introduction-text-container d-flex flex-column align-items-center">
+					<div class="header-divider-text-container d-flex flex-column align-items-center">
 						<p>Here are all the video games related projects I have worked on:</p>
 					</div>
 				</div>
