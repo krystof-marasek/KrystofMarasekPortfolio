@@ -48,6 +48,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @include paragraph;
 @include button-primary;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bs-primary-background);
     margin: 0!important;
@@ -157,6 +161,7 @@ body {
                 width: 100%;
                 height: 100%;
                 letter-spacing: 0px;
+                font-weight: bold;
                 color: var(--bs-lighter-text);
                 text-decoration: none;
 
@@ -178,10 +183,12 @@ body {
     }
 
     .offcanvas {
-        background-color: var(--bs-dark-green);
-        color: var(--bs-lighter-text);
+        background-color: var(--bs-primary-background);
+        color: var(--bs-header-text);
 
         .offcanvas-header {
+            color: var(--bs-primary);
+            
             .btn-close {
                 border-radius: 50%;
                 background-color: var(--bs-primary);
@@ -267,7 +274,7 @@ body {
 
 .about-me-block-component {
     background-color: var(--bs-primary-background);
-    padding: 0 12px 0 12px;
+    padding: 20px 12px 20px 12px;
 
     .about-me-header-row {
         padding: 30px 0;
@@ -297,9 +304,12 @@ body {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             img {
-                width: 100%;
+                width: 95%;
                 height: auto;
             }
         }
@@ -327,7 +337,7 @@ body {
 
 .news-feed-block-component {
     background-color: var(--bs-secondary-background);
-    padding: 0 12px 0 12px;
+    padding: 0 12px 60px 12px;
 
     .news-feed-row {
 
@@ -346,6 +356,7 @@ body {
                 .card-title {
                     color: var(--bs-header-text);
                     font-weight: 600;
+                    font-size: 28px;
                 }
 
                 .card-text {
@@ -360,7 +371,7 @@ body {
 
 .choose-ability-component{
     background-color: var(--bs-primary-background);
-    padding: 40px 12px 0 12px;
+    padding: 80px 12px 80px 12px;
 
     .choose-ability-container {
         width: 50%;
@@ -402,7 +413,7 @@ body {
     }
 
     .filter-row {
-        padding: 20px 0 40px 0;
+        padding-top: 20px;
     
         .filters {
             display: flex;

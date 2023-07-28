@@ -102,6 +102,11 @@ function krystof_marasek_setup() {
 }
 add_action( 'after_setup_theme', 'krystof_marasek_setup' );
 
+function krystof_marasek_register_menu_locations() {
+    register_nav_menu("mobile-nav-menu-location", "Mobile Navigation Menu Location");
+}
+add_action("after_setup_theme", "krystof_marasek_register_menu_locations");
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *

@@ -1,6 +1,6 @@
 <!-- NEWS FEED BLOCK -->
 
-<div id="news-feed" class="header-divider-component container-fluid" style="padding: 30px 0; background-color: var(--bs-secondary-background);">
+<div id="news-feed" class="header-divider-component container-fluid" style="padding: 40px 0; background-color: var(--bs-secondary-background);">
   
 	<div class="header-divider-row g-0 container">
 		<div class="row d-flex justify-content-between align-items-start">
@@ -34,7 +34,7 @@
 	<div class="container">
 
 		<div class="news-feed-row row d-flex justify-content-between align-items-start">
-			<div class="row row-cols-1 row-cols-md-2 g-4">
+			<div class="row row-cols-1 row-cols-md-2 g-4" style="margin-top: 0;">
                 <?php foreach($attributes["news"] as $news): ?>
 				    <div class="col">
 				      	<div class="card h-100">
