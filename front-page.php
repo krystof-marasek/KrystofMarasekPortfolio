@@ -1,5 +1,9 @@
 <?php get_header();?>
 
+<div class="warning">
+	<h1>DISCLAIMER! THIS WEBSITE IS STILL UNDER CONSTRUCTION. THANK YOU FOR UNDERSTANDING.</h1>
+</div>
+
 <!-- INTRODUCTION -->
 
 <div class="primary-block-component container-fluid overflow-hidden">

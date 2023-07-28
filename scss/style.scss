@@ -200,6 +200,20 @@ body {
     } */
 }
 
+/****************** WARNING ******************/
+
+.warning {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bs-primary);
+
+    h1 {
+        color: var(--bs-header-text);
+        font-size: 18px;
+    }
+}
+
 /****************** PRIMARY BLOCK ******************/
 
 .primary-block-component {
@@ -319,7 +333,6 @@ body {
 
         .card {
             background-color: var(--bs-primary-background);
-            
             border: none;
 
             .card-img-top {
@@ -332,6 +345,7 @@ body {
 
                 .card-title {
                     color: var(--bs-header-text);
+                    font-weight: 600;
                 }
 
                 .card-text {
