@@ -28,7 +28,7 @@
 	<header id="masthead" class="site-header">
 		<div class="header container-fluid">
             <div class="header-row row d-flex">
-                <div class="desktop-menu-container d-flex justify-content-between">
+                <div class="desktop-menu-container d-flex justify-content-between p-0">
 
                     <div class="left-menu-container d-flex col-xl-3 col-lg-3 col-6 align-items-center justify-content-start" >
                         <div class="col-xl-2 col-lg-2 col-1"></div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
 
-					<div class="right-menu-container col-xl-5 col-lg-5 col-6 d-flex align-items-center">
+					<div class="right-menu-container col-6 d-flex align-items-center">
 						<div class="header-navigation col-10 d-none d-xl-flex g-2">
 							<nav id="site-navigation" class="main-navigation">
 								<?php

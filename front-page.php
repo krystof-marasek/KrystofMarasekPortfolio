@@ -1,8 +1,8 @@
 <?php get_header();?>
 
-<div class="warning">
-	<h1>DISCLAIMER! THIS WEBSITE IS STILL UNDER CONSTRUCTION. THANK YOU FOR UNDERSTANDING.</h1>
-</div>
+<!-- <div class="warning">
+	<h1>DISCLAIMER! THIS WEBSITE IS STILL UNDER DEVELOPMENT. THANK YOU FOR UNDERSTANDING.</h1>
+</div> -->
 
 <!-- INTRODUCTION -->
 
@@ -10,7 +10,7 @@
 	<div class="container">
 	  	<div class="row d-flex">
 
-	  	    <div class="primary-block-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
+	  	    <div class="primary-block-text-container d-flex justify-content-center flex-column col-lg-6 col-12">
 	  	      	<div class="primary-block-text-content-container">
 	  	      	  	<h2>
                         Hello there, <br>
@@ -24,7 +24,7 @@
 	  	      	  	</div>
 	  	      	</div>
 	  	    </div>
-            <div class="primary-block-video col-xl-6 col-lg-10 col-12 d-flex align-items-center">
+            <div class="primary-block-video col-lg-6 col-12 d-flex align-items-center">
                 <div class="introduction-video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/pi7V7JDnC2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
