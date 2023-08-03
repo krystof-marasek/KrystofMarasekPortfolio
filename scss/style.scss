@@ -432,9 +432,10 @@ body {
                     .filter-btn {
                         display: flex;
                         justify-content: center;
+
                         img {
-                            height: 65%;
-                            width: 65%;
+                            height: auto;
+                            width: 75%;
                         }
                     }
         
@@ -855,6 +856,16 @@ body {
             }
         }
     }
+
+    .choose-ability-component {
+        .choose-ability-container {
+            width: 75%;
+
+            .choose-ability-text-container {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -886,7 +897,10 @@ body {
                 }
             }
         }
+    }
 
+    .choose-ability-component .filter-row .filters a .filter-container .filter-btn img {
+        width: 65%;
     }
 }
 
@@ -911,11 +925,31 @@ body {
             }
         }
     }
+
+    .choose-ability-component {
+        .choose-ability-container {
+            width: 90%;
+        }
+
+        .choose-ability-text-container h1 {
+            font-size: 42px;
+        }
+
+        .filter-row .filters a .filter-container {
+            .filter-name .filter-name-text {
+                font-size: 22px;
+            }
+
+            .filter-btn img {
+                width: 60%;
+            }
+        }
+    }
 }
 
 @media (max-width: 550px) {
     .header .image-container {
-        width: 50%;
+        width: 25%;
     }
 
     .primary-block-component .row {
@@ -942,7 +976,7 @@ body {
 
 @media (max-width: 450px) {
     .header .image-container {
-        width: 70%;
+        width: 30%;
     }
 
     .primary-block-component .row {
@@ -965,6 +999,10 @@ body {
 }
 
 @media (max-width: 380px) {
+    .header .image-container {
+        width: 35%;
+    }
+
     .primary-block-component .row {
 
         .primary-block-video {

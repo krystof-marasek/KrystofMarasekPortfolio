@@ -17,18 +17,18 @@
 		</div>
 
         <div class="divider-row row g-0">
-            <div class="col-3 col-sm-5 p-0"></div>
-            <div class="col-6 col-sm-2 p-0">
+            <div class="col-3 p-0"></div>
+            <div class="col-6 p-0">
                 <div id="divider-container">
                     <div id="divider"></div>
                 </div>
             </div>
-            <div class="col-3 col-sm-5 p-0"></div>
+            <div class="col-3 p-0"></div>
         </div>
 
         <div class="filter-row row g-0">
             <div class="filters">
-                <div class="col-6 col-sm-4 p-0">
+                <div class="col-4 p-0">
                     <a href="<?php echo $attributes["ability-one-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
@@ -40,7 +40,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 p-0">
+                <div class="col-4 p-0">
                     <a href="<?php echo $attributes["ability-two-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
@@ -52,7 +52,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 p-0">
+                <div class="col-4 p-0">
                     <a href="<?php echo $attributes["ability-three-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
