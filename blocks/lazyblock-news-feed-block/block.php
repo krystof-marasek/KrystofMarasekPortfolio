@@ -17,13 +17,13 @@
 		</div>
 
         <div class="divider-row row g-0">
-            <div class="col-3 col-sm-5 p-0"></div>
-            <div class="col-6 col-sm-2 p-0">
+            <div class="col-3 p-0"></div>
+            <div class="col-6 p-0">
                 <div id="divider-container">
                     <div id="divider"></div>
                 </div>
             </div>
-            <div class="col-3 col-sm-5 p-0"></div>
+            <div class="col-3 p-0"></div>
         </div>
 
 	</div>
@@ -33,7 +33,7 @@
 <div class="news-feed-block-component container-fluid overflow-hidden">
 	<div class="container">
 
-		<div class="news-feed-row row d-flex justify-content-between align-items-start">
+		<div class="news-feed-row row">
 			<div class="row row-cols-1 row-cols-md-2 g-4" style="margin-top: 0;">
                 <?php foreach($attributes["news"] as $news): ?>
 				    <div class="col">
@@ -45,7 +45,7 @@
 				        	  	<h3 class="card-title"><?php echo $news["card-title"]?></h3>
 				        	  	<p class="card-text"><?php echo $news["card-text"]?></p>
 				    			<a href="<?php echo $news["button-link"]?>">
-                                    <button type="button" class="btn btn-primary"><?php echo $news["button-text"]?></button>
+                                    <button type="button" class="btn btn-primary" style="margin:0;"><?php echo $news["button-text"]?></button>
                                 </a>
 				        	</div>
 				      	</div>

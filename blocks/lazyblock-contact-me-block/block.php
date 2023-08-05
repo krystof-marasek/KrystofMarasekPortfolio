@@ -20,8 +20,8 @@
 
                 <div class="contact-me">
 
-                    <div class="col-12 col-sm-6 p-0">
-                        <div class="contacts" data-aos="zoom-in" data-aos-duration="500">
+                    <div class="col-12 col-md-6 p-0">
+                        <div class="contacts">
                             <div id="email" class="contacts-container">
                                 <div class="email-box">
                                     <div class="contacts-icon-container">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-6 p-0">
+                    <div class="col-12 col-md-6 p-0">
                         <div class="contacts">
                             <div id="message" class="contacts-container">
                                 <div class="message-box">

@@ -11937,7 +11937,7 @@ body {
 /****************** FRONT PAGE - ABOUT ME ******************/
 .about-me-block-component {
   background-color: var(--bs-primary-background);
-  padding: 20px 12px 20px 12px;
+  padding: 0 12px 20px 12px;
 }
 .about-me-block-component .about-me-header-row {
   padding: 30px 0;
@@ -11991,6 +11991,11 @@ body {
   background-color: var(--bs-secondary-background);
   padding: 0 12px 60px 12px;
 }
+.news-feed-block-component .news-feed-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .news-feed-block-component .news-feed-row .card {
   background-color: var(--bs-primary-background);
   border: none;
@@ -12018,18 +12023,28 @@ body {
   padding: 80px 12px 80px 12px;
 }
 .choose-ability-component .choose-ability-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
+}
+.choose-ability-component .choose-ability-container .choose-ability-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.choose-ability-component .choose-ability-container .choose-ability-header-container h1, .choose-ability-component .choose-ability-container .choose-ability-header-container .h1 {
+  text-align: center;
+  color: var(--bs-header-text);
+  margin-bottom: 15px;
 }
 .choose-ability-component .choose-ability-container .choose-ability-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-.choose-ability-component .choose-ability-container .choose-ability-text-container h1, .choose-ability-component .choose-ability-container .choose-ability-text-container .h1 {
-  text-align: center;
-  color: var(--bs-header-text);
-  margin-bottom: 15px;
+  width: 65%;
 }
 .choose-ability-component .choose-ability-container .choose-ability-text-container p {
   text-align: center;
@@ -12081,6 +12096,7 @@ body {
   margin-top: 10px;
 }
 .choose-ability-component .filter-row .filters a .filter-container .filter-name .filter-name-text {
+  font-size: 22px;
   text-align: center;
   color: var(--bs-header-text);
   font-weight: bold;
@@ -12388,7 +12404,7 @@ body {
 /****************** MEDIA QUERIES ******************/
 @media (max-width: 1199.98px) {
   .header .image-container {
-    width: 55%;
+    width: 45%;
   }
   .primary-block-component .row .primary-block-text-container h2, .primary-block-component .row .primary-block-text-container .h2 {
     font-size: 32px;
@@ -12400,16 +12416,22 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     height: 245px;
   }
+  .news-feed-block-component .news-feed-row .card .card-body .card-title {
+    font-size: 26px;
+  }
   .choose-ability-component .choose-ability-container {
     width: 75%;
   }
-  .choose-ability-component .choose-ability-container .choose-ability-text-container {
+  .choose-ability-component .choose-ability-container .choose-ability-header-container {
     width: 100%;
+  }
+  .choose-ability-component .choose-ability-container .choose-ability-text-container {
+    width: 50%;
   }
 }
 @media (max-width: 991.98px) {
   .header .image-container {
-    width: 35%;
+    width: 25%;
   }
   .primary-block-component {
     padding: 125px 12px 125px 12px;
@@ -12431,11 +12453,33 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     height: 315px;
   }
-  .choose-ability-component .filter-row .filters a .filter-container .filter-btn img {
+  .about-me-block-component .about-me-row .about-me-block-text-container {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .about-me-block-component .about-me-row .about-me-block-text-container p {
+    width: 100%;
+  }
+  .header-divider-component .header-divider-container {
+    width: 70%;
+  }
+  .choose-ability-component .choose-ability-container .choose-ability-text-container {
     width: 65%;
+  }
+  .choose-ability-component .filter-row .filters .filter a .filter-container .filter-btn img {
+    width: 65%;
+  }
+  .contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+    width: 15%;
+  }
+  .footer .footer-row .social-links .social-container .social {
+    width: 45%;
   }
 }
 @media (max-width: 767.98px) {
+  h1, .h1 {
+    font-size: 42px;
+  }
   .header .image-container {
     width: 40%;
   }
@@ -12449,22 +12493,59 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     height: 265px;
   }
+  .about-me-block-component .about-me-header-row .about-me-header-container {
+    width: 100%;
+  }
+  .header-divider-component .header-divider-container {
+    width: 85%;
+  }
+  .news-feed-block-component .news-feed-row {
+    justify-content: center;
+  }
   .choose-ability-component .choose-ability-container {
     width: 90%;
   }
-  .choose-ability-component .choose-ability-text-container h1, .choose-ability-component .choose-ability-text-container .h1 {
-    font-size: 42px;
+  .choose-ability-component .choose-ability-container .choose-ability-text-container {
+    width: 75%;
   }
-  .choose-ability-component .filter-row .filters a .filter-container .filter-name .filter-name-text {
+  .choose-ability-component .filter-row .filters {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .choose-ability-component .filter-row .filters .filter a .filter-container .filter-name .filter-name-text {
     font-size: 22px;
   }
-  .choose-ability-component .filter-row .filters a .filter-container .filter-btn img {
+  .choose-ability-component .filter-row .filters .filter a .filter-container .filter-btn img {
+    width: 60%;
+  }
+  .contact-me-component .contact-me {
+    flex-direction: column;
+  }
+  .contact-me-component .contact-me-header-container {
+    width: 100%;
+  }
+  .contact-me-component .contact-me-container {
+    padding: 0 28px;
+  }
+  .contact-me-component .contact-me .contacts #email {
+    margin-right: 0;
+  }
+  .contact-me-component .contact-me .contacts #message {
+    margin-left: 0;
+  }
+  .contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+    width: 20%;
+  }
+  .footer .footer-row .social-links .social-container .social {
     width: 60%;
   }
 }
 @media (max-width: 550px) {
+  h1, .h1 {
+    font-size: 38px;
+  }
   .header .image-container {
-    width: 25%;
+    width: 45%;
   }
   .primary-block-component .row .primary-block-text-container h2, .primary-block-component .row .primary-block-text-container .h2 {
     font-size: 27px;
@@ -12479,10 +12560,37 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     height: 205px;
   }
+  .header-divider-component .header-divider-container {
+    width: 75%;
+  }
+  .choose-ability-component .choose-ability-container .choose-ability-text-container {
+    width: 90%;
+  }
+  .choose-ability-component .filter-row .filters .filter a .filter-container .filter-name .filter-name-text {
+    font-size: 20px;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .email-box img {
+    width: 12%;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .message-box img {
+    width: 12%;
+  }
+  .contact-me-component .wpforms-container .wpforms-field input {
+    font-size: 18px;
+  }
+  .contact-me-component .wpforms-container .wpforms-field textarea {
+    font-size: 18px;
+  }
+  .contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+    width: 25%;
+  }
+  .footer .footer-row .social-links .social-container .social {
+    width: 75%;
+  }
 }
 @media (max-width: 450px) {
   .header .image-container {
-    width: 30%;
+    width: 55%;
   }
   .primary-block-component .row .primary-block-text-container h2, .primary-block-component .row .primary-block-text-container .h2 {
     width: 100%;
@@ -12495,10 +12603,25 @@ body {
     height: 172px;
     width: 560px;
   }
+  .news-feed-block-component .news-feed-row .card .card-body .card-title {
+    font-size: 23px;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .email-box img {
+    width: 15%;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .message-box img {
+    width: 15%;
+  }
+  .contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+    width: 35%;
+  }
+  .footer .footer-row .social-links .social-container .social {
+    width: 85%;
+  }
 }
 @media (max-width: 380px) {
   .header .image-container {
-    width: 35%;
+    width: 55%;
   }
   .primary-block-component .row .primary-block-video .introduction-video {
     border: none;
@@ -12506,5 +12629,29 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     width: 270px;
     height: 152px;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .email-box img {
+    width: 17%;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .email-box .contacts-text {
+    font-size: 18px;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .message-box img {
+    width: 17%;
+  }
+  .contact-me-component .contact-me .contacts .contacts-container .message-box .contacts-text {
+    font-size: 18px;
+  }
+  .contact-me-component .wpforms-container .wpforms-field input {
+    font-size: 16px;
+  }
+  .contact-me-component .wpforms-container .wpforms-field textarea {
+    font-size: 16px;
+  }
+  .contact-me-component .wpforms-container .wpforms-submit-container .wpforms-submit {
+    width: 40%;
+  }
+  .footer .footer-row .social-links .social-container .social {
+    width: 100%;
   }
 }

@@ -6,7 +6,7 @@
 		<div class="row d-flex justify-content-between align-items-start">
 			<div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
 				<div class="choose-ability-container d-flex flex-column justify-content-between">
-					<div class="choose-ability-text-container">
+					<div class="choose-ability-header-container">
 						<h1><?php echo $attributes["header"]?></h1>
 					</div>
 					<div class="choose-ability-text-container d-flex flex-column align-items-center">
@@ -28,7 +28,7 @@
 
         <div class="filter-row row g-0">
             <div class="filters">
-                <div class="col-4 p-0">
+                <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-one-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
@@ -40,7 +40,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 p-0">
+                <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-two-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
@@ -52,7 +52,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-4 p-0">
+                <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-three-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">

@@ -14,12 +14,12 @@
 		</div>
 
 	  	<div class="about-me-row row d-flex">
-	  	  	<div class="about-me-block-image col-xl-6 col-lg-10 col-12 d-flex align-items-center">
+	  	  	<div class="about-me-block-image col-lg-6 col-12 d-flex align-items-center">
 				<?php if ( isset( $attributes['image']['url'] ) ) : ?>
   					<img src="<?php echo esc_url( $attributes['image']['url'] ); ?>" alt="<?php echo esc_attr( $attributes['image']['alt'] ); ?>">
 				<?php endif; ?>
 	  	  	</div>
-	  	  	<div class="about-me-block-text-container d-flex justify-content-center flex-column col-lg-5 col-sm-12 col-12">
+	  	  	<div class="about-me-block-text-container d-flex justify-content-center flex-column col-lg-6 col-12">
 	  	  	  	<div class="about-me-block-text-content-container">
 	  	  	  	  	<h2>
                         <?php echo $attributes["subheader"]?>
