@@ -82,9 +82,9 @@ body {
 
     .header-navigation {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
-        width: 100%;
+        width: 92%;
     
         #primary-menu {
             display: flex;
@@ -197,6 +197,18 @@ body {
 
         .offcanvas-body {
             padding: 0 16px 16px 16px;
+
+            .sub-menu {
+                li {
+                    font-size: 22px;
+                    color: var(--bs-text);
+                    margin-left: 15px;
+                }
+
+                :last-child {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 
@@ -1373,8 +1385,8 @@ body {
                 border: none;
 
                 iframe {
-                    width: 270px;
-                    height: 152px;
+                    height: 172px;
+                    width: 540px;
                     border: 4px solid var(--bs-primary);
                 }
             }
@@ -1435,8 +1447,8 @@ body {
                 border: none;
 
                 iframe {
-                    width: 270px;
-                    height: 152px;
+                    height: 172px;
+                    width: 540px;
                     border: 4px solid var(--bs-primary);
                 }
             }

@@ -46,13 +46,13 @@
 		<div class="filter-row row g-0">
             <div class="filters">
                 <div class="filter col-12 col-md-4 p-0">
-                    <a href="/web-development">
+                    <a href="/video-game-design">
                         <div class="filter-container">
                             <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
                             </div>
                             <div class="filter-name">
-                                <p class="filter-name-text">Web Development</p>
+                                <p class="filter-name-text">Video Game Design</p>
                             </div>
                         </div>
                     </a>
@@ -70,13 +70,13 @@
                     </a>
                 </div>
                 <div class="filter col-12 col-md-4 p-0">
-                    <a href="/video-game-design">
+                    <a href="/web-development">
                         <div class="filter-container">
                             <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
                             </div>
                             <div class="filter-name">
-                                <p class="filter-name-text">Video Game Design</p>
+                                <p class="filter-name-text">Web Development</p>
                             </div>
                         </div>
                     </a>

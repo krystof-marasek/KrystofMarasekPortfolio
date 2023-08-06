@@ -29,13 +29,13 @@
         <div class="filter-row row g-0">
             <div class="filters">
                 <div class="filter col-12 col-md-4 p-0">
-                    <a href="<?php echo $attributes["ability-one-link"]?>">
+                    <a href="<?php echo $attributes["ability-three-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
                             </div>
                             <div class="filter-name">
-                                <p class="filter-name-text"><?php echo $attributes["ability-one-name"]?></p>
+                                <p class="filter-name-text"><?php echo $attributes["ability-three-name"]?></p>
                             </div>
                         </div>
                     </a>
@@ -53,13 +53,13 @@
                     </a>
                 </div>
                 <div class="filter col-12 col-md-4 p-0">
-                    <a href="<?php echo $attributes["ability-three-link"]?>">
+                    <a href="<?php echo $attributes["ability-one-link"]?>">
                         <div class="filter-container">
                             <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/GameDesign.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
                             </div>
                             <div class="filter-name">
-                                <p class="filter-name-text"><?php echo $attributes["ability-three-name"]?></p>
+                                <p class="filter-name-text"><?php echo $attributes["ability-one-name"]?></p>
                             </div>
                         </div>
                     </a>

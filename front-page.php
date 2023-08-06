@@ -1,8 +1,8 @@
 <?php get_header();?>
 
-<div class="warning">
+<!-- <div class="warning">
 	<h1 style="text-align:center;">DISCLAIMER! THIS WEBSITE IS STILL UNDER DEVELOPMENT. THANK YOU FOR UNDERSTANDING.</h1>
-</div>
+</div> -->
 
 <!-- INTRODUCTION -->
 

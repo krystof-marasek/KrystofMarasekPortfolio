@@ -45,31 +45,7 @@
 	<div class="ability-menu-row g-0 container">
 		<div class="filter-row row g-0">
             <div class="filters">
-                <div class="col-6 col-sm-4 p-0">
-                    <a href="/web-development">
-                        <div class="filter-container">
-                            <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
-                            </div>
-                            <div class="filter-name">
-                                <p class="filter-name-text">Web Development</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-sm-4 p-0">
-                    <a href="/video-production">
-                        <div class="filter-container">
-                            <div class="filter-btn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/VideoProduction.svg" alt="">
-                            </div>
-                            <div class="filter-name">
-                                <p class="filter-name-text">Video Production</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-sm-4 p-0">
+                <div class="filter col-12 col-md-4 p-0">
                     <a href="/video-game-design">
                         <div class="filter-container">
                             <div class="filter-btn">
@@ -81,11 +57,34 @@
                         </div>
                     </a>
                 </div>
+                <div class="filter col-12 col-md-4 p-0">
+                    <a href="/video-production">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/VideoProduction.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Video Production</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filter col-12 col-md-4 p-0">
+                    <a href="/web-development">
+                        <div class="filter-container">
+                            <div class="filter-btn">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/WebDesign.svg" alt="">
+                            </div>
+                            <div class="filter-name">
+                                <p class="filter-name-text">Web Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
 	</div>
 
 </div>
-
 <?php get_footer();
