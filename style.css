@@ -11987,6 +11987,43 @@ body {
 }
 
 /****************** FRONT PAGE - NEWS FEED ******************/
+.news-feed-header-component {
+  background-color: var(--bs-primary-background);
+  padding: 100px 12px 30px 12px;
+}
+.news-feed-header-component .news-feed-header-container {
+  width: 50%;
+}
+.news-feed-header-component .news-feed-header-container .news-feed-header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.news-feed-header-component .news-feed-header-container .news-feed-header-text-container h1, .news-feed-header-component .news-feed-header-container .news-feed-header-text-container .h1 {
+  text-align: center;
+  color: var(--bs-header-text);
+  margin-bottom: 15px;
+}
+.news-feed-header-component .news-feed-header-container .news-feed-header-text-container p {
+  text-align: center;
+  color: var(--bs-text);
+  margin: 0;
+}
+.news-feed-header-component .divider-row {
+  padding-top: 20px;
+}
+.news-feed-header-component .divider-row #divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-feed-header-component .divider-row #divider-container #divider {
+  background-color: var(--bs-primary);
+  width: 200px;
+  height: 3px;
+}
+
 .news-feed-block-component {
   background-color: var(--bs-secondary-background);
   padding: 0 12px 60px 12px;
@@ -12103,13 +12140,13 @@ body {
   width: 100%;
 }
 
-/****************** ABILITY INTRODUCTION ******************/
+/****************** SUBPAGE - ABILITY INTRODUCTION ******************/
 .header-divider-component {
   background-color: var(--bs-primary-background);
   padding: 100px 12px 30px 12px;
 }
 .header-divider-component .header-divider-container {
-  width: 50%;
+  width: 65%;
 }
 .header-divider-component .header-divider-container .header-divider-text-container {
   display: flex;
@@ -12141,7 +12178,7 @@ body {
   height: 3px;
 }
 
-/****************** ABILITY MENU ******************/
+/****************** SUBPAGE - ABILITY MENU ******************/
 .ability-menu-component {
   background-color: var(--bs-primary-background);
   padding: 30px 12px 30px 12px;
@@ -12184,7 +12221,7 @@ body {
   width: 100%;
 }
 
-/****************** SECONDARY BLOCK ******************/
+/****************** SUBPAGE - SECONDARY BLOCK ******************/
 .secondary-block-component {
   background-color: var(--bs-secondary-background);
   padding: 80px 12px 80px 12px;
@@ -12223,7 +12260,7 @@ body {
   border: 6px solid var(--bs-primary);
 }
 
-/****************** CONTACT ME ******************/
+/****************** FRONT PAGE - CONTACT ME ******************/
 .contact-me-component {
   background-color: var(--bs-secondary-background);
   padding: 40px 12px;
@@ -12428,6 +12465,19 @@ body {
   .choose-ability-component .choose-ability-container .choose-ability-text-container {
     width: 50%;
   }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    font-size: 32px;
+  }
+  .secondary-block-component .row .secondary-block-text-container p {
+    width: 95%;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    width: 100%;
+    height: 257px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    height: 245px;
+  }
 }
 @media (max-width: 991.98px) {
   .header .image-container {
@@ -12460,7 +12510,7 @@ body {
   .about-me-block-component .about-me-row .about-me-block-text-container p {
     width: 100%;
   }
-  .header-divider-component .header-divider-container {
+  .news-feed-header-component .news-feed-header-container {
     width: 70%;
   }
   .choose-ability-component .choose-ability-container .choose-ability-text-container {
@@ -12474,6 +12524,32 @@ body {
   }
   .footer .footer-row .social-links .social-container .social {
     width: 45%;
+  }
+  .header-divider-component .header-divider-container {
+    width: 90%;
+  }
+  .secondary-block-component .row {
+    justify-content: center;
+  }
+  .secondary-block-component .row .secondary-block-text-container {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    margin: 0;
+  }
+  .secondary-block-component .row .secondary-block-text-container p {
+    margin: 20px 0 !important;
+  }
+  .secondary-block-component .row .secondary-block-video {
+    width: 100%;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    width: 82%;
+    height: 326px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    height: 315px;
   }
 }
 @media (max-width: 767.98px) {
@@ -12496,7 +12572,7 @@ body {
   .about-me-block-component .about-me-header-row .about-me-header-container {
     width: 100%;
   }
-  .header-divider-component .header-divider-container {
+  .news-feed-header-component .news-feed-header-container {
     width: 85%;
   }
   .news-feed-block-component .news-feed-row {
@@ -12539,6 +12615,23 @@ body {
   .footer .footer-row .social-links .social-container .social {
     width: 60%;
   }
+  .header-divider-component .header-divider-container {
+    width: 85%;
+  }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    font-size: 34px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    width: 100%;
+    height: 276px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    height: 265px;
+  }
+  .ability-menu-component .filter-row .filters {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media (max-width: 550px) {
   h1, .h1 {
@@ -12560,7 +12653,7 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     height: 205px;
   }
-  .header-divider-component .header-divider-container {
+  .news-feed-header-component .news-feed-header-container {
     width: 75%;
   }
   .choose-ability-component .choose-ability-container .choose-ability-text-container {
@@ -12586,6 +12679,25 @@ body {
   }
   .footer .footer-row .social-links .social-container .social {
     width: 75%;
+  }
+  .header-divider-component .header-divider-container {
+    width: 100%;
+  }
+  .header-divider-component .header-divider-container .header-divider-text-container h1, .header-divider-component .header-divider-container .header-divider-text-container .h1 {
+    font-size: 35px;
+  }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    font-size: 32px;
+  }
+  .secondary-block-component .row .secondary-block-text-container p {
+    width: 100%;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    width: 100%;
+    height: 218px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    height: 205px;
   }
 }
 @media (max-width: 450px) {
@@ -12618,6 +12730,17 @@ body {
   .footer .footer-row .social-links .social-container .social {
     width: 85%;
   }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    width: 100%;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    width: 100%;
+    height: 185px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    height: 172px;
+    width: 560px;
+  }
 }
 @media (max-width: 380px) {
   .header .image-container {
@@ -12629,6 +12752,7 @@ body {
   .primary-block-component .row .primary-block-video .introduction-video iframe {
     width: 270px;
     height: 152px;
+    border: 4px solid var(--bs-primary);
   }
   .contact-me-component .contact-me .contacts .contacts-container .email-box img {
     width: 17%;
@@ -12653,5 +12777,16 @@ body {
   }
   .footer .footer-row .social-links .social-container .social {
     width: 100%;
+  }
+  .secondary-block-component .row .secondary-block-text-container h2, .secondary-block-component .row .secondary-block-text-container .h2 {
+    font-size: 30px;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video {
+    border: none;
+  }
+  .secondary-block-component .row .secondary-block-video .showcase-video iframe {
+    width: 270px;
+    height: 152px;
+    border: 4px solid var(--bs-primary);
   }
 }

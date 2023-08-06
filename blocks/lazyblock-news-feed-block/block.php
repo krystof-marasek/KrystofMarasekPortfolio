@@ -1,16 +1,16 @@
 <!-- NEWS FEED BLOCK -->
 
-<div id="news-feed" class="header-divider-component container-fluid" style="padding: 40px 0; background-color: var(--bs-secondary-background);">
+<div id="news-feed" class="news-feed-header-component container-fluid" style="padding: 40px 0; background-color: var(--bs-secondary-background);">
   
-	<div class="header-divider-row g-0 container">
+	<div class="news-feed-header-row g-0 container">
 		<div class="row d-flex justify-content-between align-items-start">
 			<div class="col-lg-12 col-sm-12 col-12 d-flex flex-column align-items-center">
-				<div class="header-divider-container d-flex flex-column justify-content-between">
-					<div class="header-divider-text-container">
-						<h1><?php echo $attributes["header-divider"]?></h1>
+				<div class="news-feed-header-container d-flex flex-column justify-content-between">
+					<div class="news-feed-header-text-container">
+						<h1><?php echo $attributes["news-feed-header"]?></h1>
 					</div>
-					<div class="header-divider-text-container d-flex flex-column align-items-center">
-						<p><?php echo $attributes["header-divider-text"]?></p>
+					<div class="news-feed-header-text-container d-flex flex-column align-items-center">
+						<p><?php echo $attributes["news-feed-header-text"]?></p>
 					</div>
 				</div>
 			</div>

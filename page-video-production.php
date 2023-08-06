@@ -19,13 +19,13 @@
 		</div>
 
         <div class="divider-row row g-0">
-            <div class="col-3 col-sm-5 p-0"></div>
-            <div class="col-6 col-sm-2 p-0">
+            <div class="col-3 p-0"></div>
+            <div class="col-6 p-0">
                 <div id="divider-container">
                     <div id="divider"></div>
                 </div>
             </div>
-            <div class="col-3 col-sm-5 p-0"></div>
+            <div class="col-3 p-0"></div>
         </div>
 
 	</div>

@@ -335,6 +335,50 @@ body {
 
 /****************** FRONT PAGE - NEWS FEED ******************/
 
+.news-feed-header-component {
+    background-color: var(--bs-primary-background);
+    padding: 100px 12px 30px 12px;
+
+    .news-feed-header-container {
+        width: 50%;
+    
+        .news-feed-header-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+            h1 {
+                text-align: center;
+                color: var(--bs-header-text);
+                margin-bottom: 15px;
+            }
+    
+            p {
+                text-align: center;
+                color: var(--bs-text);
+                margin: 0;
+            }
+        }
+    }
+
+    .divider-row {
+        padding-top: 20px;
+    
+        #divider-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            #divider {
+                background-color: var(--bs-primary);
+                width: 200px;
+                height: 3px;
+            }
+        }
+    }
+}
+
 .news-feed-block-component {
     background-color: var(--bs-secondary-background);
     padding: 0 12px 60px 12px;
@@ -473,14 +517,14 @@ body {
     }
 }
 
-/****************** ABILITY INTRODUCTION ******************/
+/****************** SUBPAGE - ABILITY INTRODUCTION ******************/
 
 .header-divider-component{
     background-color: var(--bs-primary-background);
     padding: 100px 12px 30px 12px;
 
     .header-divider-container {
-        width: 50%;
+        width: 65%;
     
         .header-divider-text-container {
             display: flex;
@@ -519,7 +563,7 @@ body {
     }
 }
 
-/****************** ABILITY MENU ******************/
+/****************** SUBPAGE - ABILITY MENU ******************/
 
 .ability-menu-component{
     background-color: var(--bs-primary-background);
@@ -570,7 +614,7 @@ body {
     }
 }
 
-/****************** SECONDARY BLOCK ******************/
+/****************** SUBPAGE - SECONDARY BLOCK ******************/
 
 .secondary-block-component {
     background-color: var(--bs-secondary-background);
@@ -619,7 +663,7 @@ body {
     }
 }
 
-/****************** CONTACT ME ******************/
+/****************** FRONT PAGE - CONTACT ME ******************/
 
 .contact-me-component{
     background-color: var(--bs-secondary-background);
@@ -889,6 +933,29 @@ body {
             }
         }
     }
+
+    .secondary-block-component .row {
+        .secondary-block-text-container {
+            h2 {
+                font-size: 32px;
+            }
+
+            p {
+                width: 95%;
+            }
+        }
+
+        .secondary-block-video {
+            .showcase-video{
+                width: 100%;
+                height: 257px;
+    
+                iframe {
+                    height: 245px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -933,7 +1000,7 @@ body {
         }
     }
 
-    .header-divider-component .header-divider-container {
+    .news-feed-header-component .news-feed-header-container {
         width: 70%;
     }
 
@@ -956,6 +1023,43 @@ body {
 
     .footer .footer-row .social-links .social-container .social {
         width: 45%;
+    }
+
+    .header-divider-component .header-divider-container {
+        width: 90%;
+    }
+
+    .secondary-block-component {
+
+        .row {
+            justify-content: center;
+    
+            .secondary-block-text-container {
+                width: 100%;
+                margin-bottom: 40px;
+
+                h2 {
+                    margin: 0;
+                }
+
+                p {
+                    margin: 20px 0 !important;
+                }
+            }
+    
+            .secondary-block-video {
+                width: 100%;
+    
+                .showcase-video{
+                    width: 82%;
+                    height: 326px;
+        
+                    iframe {
+                        height: 315px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -989,7 +1093,7 @@ body {
         width: 100%;
     }
 
-    .header-divider-component .header-divider-container {
+    .news-feed-header-component .news-feed-header-container {
         width: 85%;
     }
 
@@ -1051,6 +1155,32 @@ body {
     .footer .footer-row .social-links .social-container .social {
         width: 60%;
     }
+
+    .header-divider-component .header-divider-container {
+        width: 85%;
+    }
+
+    .secondary-block-component .row {
+        .secondary-block-text-container h2 {
+            font-size: 34px;
+        }
+
+        .secondary-block-video {
+            .showcase-video{
+                width: 100%;
+                height: 276px;
+
+                iframe {
+                    height: 265px;
+                }
+            }
+        }
+    }
+
+    .ability-menu-component .filter-row .filters {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -1083,7 +1213,7 @@ body {
         }
     }
 
-    .header-divider-component .header-divider-container {
+    .news-feed-header-component .news-feed-header-container {
         width: 75%;
     }
 
@@ -1131,6 +1261,35 @@ body {
 
     .footer .footer-row .social-links .social-container .social {
         width: 75%;
+    }
+
+    .header-divider-component .header-divider-container {
+        width: 100%;
+
+        .header-divider-text-container h1 {
+            font-size: 35px;
+        }
+    }
+
+    .secondary-block-component .row {
+        .secondary-block-text-container h2 {
+            font-size: 32px;
+        }
+
+        .secondary-block-text-container p {
+            width: 100%;
+        }
+
+        .secondary-block-video {
+            .showcase-video{
+                width: 100%;
+                height: 218px;
+
+                iframe {
+                    height: 205px;
+                }
+            }
+        }
     }
 }
 
@@ -1182,6 +1341,24 @@ body {
     .footer .footer-row .social-links .social-container .social {
         width: 85%;
     }
+
+    .secondary-block-component .row {
+        .secondary-block-text-container h2 {
+            width: 100%;
+        }
+
+        .secondary-block-video {
+            .showcase-video{
+                width: 100%;
+                height: 185px;
+
+                iframe {
+                    height: 172px;
+                    width: 560px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 380px) {
@@ -1198,6 +1375,7 @@ body {
                 iframe {
                     width: 270px;
                     height: 152px;
+                    border: 4px solid var(--bs-primary);
                 }
             }
         }
@@ -1245,5 +1423,23 @@ body {
 
     .footer .footer-row .social-links .social-container .social {
         width: 100%;
+    }
+
+    .secondary-block-component .row {
+        .secondary-block-text-container h2 {
+            font-size: 30px;
+        }
+
+        .secondary-block-video {
+            .showcase-video{
+                border: none;
+
+                iframe {
+                    width: 270px;
+                    height: 152px;
+                    border: 4px solid var(--bs-primary);
+                }
+            }
+        }
     }
 }
