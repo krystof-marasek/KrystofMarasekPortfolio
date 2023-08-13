@@ -11757,6 +11757,10 @@ body {
   padding: 0 !important;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 /****************** HEADER ******************/
 .header-row {
   padding: 0 !important;
@@ -12038,27 +12042,30 @@ body {
 }
 .news-feed-block-component .news-feed-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
 }
-.news-feed-block-component .news-feed-row .card {
+.news-feed-block-component .news-feed-row .row {
+  --bs-gutter-x: 1.5rem !important;
+}
+.news-feed-block-component .news-feed-row .row .card {
   background-color: var(--bs-primary-background);
   border: none;
 }
-.news-feed-block-component .news-feed-row .card .card-img-top {
+.news-feed-block-component .news-feed-row .row .card .card-img-top {
   height: 325px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.news-feed-block-component .news-feed-row .card .card-body {
+.news-feed-block-component .news-feed-row .row .card .card-body {
   border-top: 3px solid var(--bs-primary);
 }
-.news-feed-block-component .news-feed-row .card .card-body .card-title {
+.news-feed-block-component .news-feed-row .row .card .card-body .card-title {
   color: var(--bs-header-text);
   font-weight: 600;
   font-size: 28px;
 }
-.news-feed-block-component .news-feed-row .card .card-body .card-text {
+.news-feed-block-component .news-feed-row .row .card .card-body .card-text {
   color: var(--bs-text);
 }
 
@@ -12148,7 +12155,7 @@ body {
   width: 100%;
 }
 
-/****************** SUBPAGE - ABILITY INTRODUCTION ******************/
+/****************** SUBPAGE - ABILITY HEADER ******************/
 .header-divider-component {
   background-color: var(--bs-primary-background);
   padding: 100px 12px 30px 12px;
@@ -12394,7 +12401,7 @@ body {
   color: var(--bs-header-text) !important;
   background-color: var(--bs-primary) !important;
 }
-.contact-me-component .wpforms-container #wpforms-confirmation-50 {
+.contact-me-component .wpforms-container #wpforms-confirmation-36 {
   background: var(--bs-primary-background) !important;
   border: 1px solid var(--bs-primary) !important;
   color: var(--bs-header-text) !important;

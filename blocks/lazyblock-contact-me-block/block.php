@@ -22,7 +22,7 @@
 
                     <div class="col-12 col-md-6 p-0">
                         <div class="contacts">
-                            <div id="email" class="contacts-container">
+                            <div id="email" class="contacts-container" data-aos="zoom-out">
                                 <div class="email-box">
                                     <div class="contacts-icon-container">
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/emailme.svg" alt="">
@@ -37,7 +37,7 @@
 
                     <div class="col-12 col-md-6 p-0">
                         <div class="contacts">
-                            <div id="message" class="contacts-container">
+                            <div id="message" class="contacts-container" data-aos="zoom-out">
                                 <div class="message-box">
                                     <div class="contacts-icon-container">
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.svg" alt="">

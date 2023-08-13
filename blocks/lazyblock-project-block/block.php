@@ -19,7 +19,7 @@
     	  	    </div>
                 <div class="secondary-block-video col-lg-6 col-12 d-flex align-items-center">
                     <div class="showcase-video">
-                        <iframe width="560" height="315" src="<?php echo $project["video"]?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="<?php echo $project["video-link"]?>" title="<?php echo $project["video-title"]?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
     	  	    </div>  
 

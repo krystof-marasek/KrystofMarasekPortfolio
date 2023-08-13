@@ -14,7 +14,7 @@
 		</div>
 
 	  	<div class="about-me-row row d-flex">
-	  	  	<div class="about-me-block-image col-lg-6 col-12 d-flex align-items-center">
+	  	  	<div class="about-me-block-image col-lg-6 col-12 d-flex align-items-center" data-aos="fade-right" data-aos-duration="750">>
 				<?php if ( isset( $attributes['image']['url'] ) ) : ?>
   					<img src="<?php echo esc_url( $attributes['image']['url'] ); ?>" alt="<?php echo esc_attr( $attributes['image']['alt'] ); ?>">
 				<?php endif; ?>

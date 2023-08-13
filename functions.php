@@ -145,8 +145,10 @@ add_action( 'widgets_init', 'krystof_marasek_widgets_init' );
 function krystof_marasek_scripts() {
 	wp_enqueue_style( 'krystof-marasek-main', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css' );
+	wp_enqueue_style( 'aos-style', 'https://unpkg.com/aos@2.3.1/dist/aos.css' );
 
 	wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js", array(), true);
+	wp_enqueue_script("aos-script", "https://unpkg.com/aos@2.3.1/dist/aos.js");
 
 	
 }
