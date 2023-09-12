@@ -12137,6 +12137,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.choose-ability-component .filter-row .filters a .filter-container .filter-btn:hover {
+  transform: scale(1.2);
+  transition-delay: 0s !important;
+}
 .choose-ability-component .filter-row .filters a .filter-container .filter-btn img {
   height: auto;
   width: 75%;
@@ -12218,6 +12222,10 @@ body {
 .ability-menu-component .filter-row .filters a .filter-container .filter-btn {
   display: flex;
   justify-content: center;
+}
+.ability-menu-component .filter-row .filters a .filter-container .filter-btn:hover {
+  transform: scale(1.2);
+  transition-delay: 0s !important;
 }
 .ability-menu-component .filter-row .filters a .filter-container .filter-btn img {
   height: 65%;

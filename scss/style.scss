@@ -511,6 +511,11 @@ body {
                         display: flex;
                         justify-content: center;
 
+                        &:hover {
+                            transform: scale(1.2);
+                            transition-delay: 0s !important;
+                        }
+
                         img {
                             height: auto;
                             width: 75%;
@@ -605,10 +610,18 @@ body {
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
+
+                    
         
                     .filter-btn {
                         display: flex;
                         justify-content: center;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            transition-delay: 0s !important;
+                        }
+
                         img {
                             height: 65%;
                             width: 65%;

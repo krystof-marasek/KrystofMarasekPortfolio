@@ -8,7 +8,7 @@
                 <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-one-link"]?>">
                         <div class="filter-container">
-                            <div class="filter-btn">
+                            <div class="filter-btn" data-aos="flip-down" data-aos-delay="100">
                                 <?php if ( isset( $attributes["ability-one-icon"]['url'] ) ) : ?>
                                     <img src="<?php echo esc_url( $attributes["ability-one-icon"]['url'] ); ?>" alt="<?php echo esc_attr( $attributes["ability-one-icon"]['alt'] ); ?>">
                                 <?php endif; ?>
@@ -22,7 +22,7 @@
                 <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-two-link"]?>">
                         <div class="filter-container">
-                            <div class="filter-btn">
+                            <div class="filter-btn" data-aos="flip-down" data-aos-delay="200">
                                 <?php if ( isset( $attributes["ability-two-icon"]['url'] ) ) : ?>
                                     <img src="<?php echo esc_url( $attributes["ability-two-icon"]['url'] ); ?>" alt="<?php echo esc_attr( $attributes["ability-three-icon"]['alt'] ); ?>">
                                 <?php endif; ?>  
@@ -36,7 +36,7 @@
                 <div class="filter col-12 col-md-4 p-0">
                     <a href="<?php echo $attributes["ability-three-link"]?>">
                         <div class="filter-container">
-                            <div class="filter-btn">
+                            <div class="filter-btn" data-aos="flip-down" data-aos-delay="300">
                                 <?php if ( isset( $attributes["ability-three-icon"]['url'] ) ) : ?>
                                     <img src="<?php echo esc_url( $attributes["ability-three-icon"]['url'] ); ?>" alt="<?php echo esc_attr( $attributes["ability-three-icon"]['alt'] ); ?>">
                                 <?php endif; ?>                          
