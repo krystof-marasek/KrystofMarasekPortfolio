@@ -1,6 +1,6 @@
 <!-- NEWS FEED BLOCK -->
 
-<div id="news-feed" class="news-feed-header-component container-fluid" style="padding: 40px 0; background-color: var(--bs-secondary-background);">
+<div id="news-feed" class="news-feed-header-component container-fluid">
   
 	<div class="news-feed-header-row g-0 container">
 		<div class="row d-flex justify-content-between align-items-start">

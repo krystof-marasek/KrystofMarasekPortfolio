@@ -11949,10 +11949,10 @@ body {
 /****************** FRONT PAGE - ABOUT ME ******************/
 .about-me-block-component {
   background-color: var(--bs-primary-background);
-  padding: 0 12px 20px 12px;
+  padding: 0 12px 40px 12px;
 }
 .about-me-block-component .about-me-header-row {
-  padding: 30px 0;
+  padding: 40px 0;
 }
 .about-me-block-component .about-me-header-row .about-me-header-container {
   width: 50%;
@@ -12001,7 +12001,7 @@ body {
 /****************** FRONT PAGE - NEWS FEED ******************/
 .news-feed-header-component {
   background-color: var(--bs-primary-background);
-  padding: 100px 12px 30px 12px;
+  padding: 40px 0;
 }
 .news-feed-header-component .news-feed-header-container {
   width: 50%;
@@ -12037,7 +12037,7 @@ body {
 }
 
 .news-feed-block-component {
-  background-color: var(--bs-secondary-background);
+  background-color: var(--bs-primary-background);
   padding: 0 12px 60px 12px;
 }
 .news-feed-block-component .news-feed-row {
@@ -12071,8 +12071,8 @@ body {
 
 /****************** FRONT PAGE - CHOOSE AN ABILITY ******************/
 .choose-ability-component {
-  background-color: var(--bs-primary-background);
-  padding: 80px 12px 80px 12px;
+  background-color: var(--bs-secondary-background);
+  padding: 40px 12px;
 }
 .choose-ability-component .choose-ability-container {
   display: flex;
