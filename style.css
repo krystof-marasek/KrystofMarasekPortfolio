@@ -11910,7 +11910,7 @@ body {
 /****************** PRIMARY BLOCK ******************/
 .primary-block-component {
   background-color: var(--bs-secondary-background);
-  padding: 200px 12px 125px 12px;
+  padding: 200px 12px 158px 12px;
 }
 .primary-block-component .row {
   padding: 30px 0;
