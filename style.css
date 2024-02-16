@@ -12049,7 +12049,7 @@ body {
   --bs-gutter-x: 1.5rem !important;
 }
 .news-feed-block-component .news-feed-row .row .card {
-  background-color: var(--bs-primary-background);
+  background-color: var(--bs-secondary-background);
   border: none;
 }
 .news-feed-block-component .news-feed-row .row .card .card-img-top {
