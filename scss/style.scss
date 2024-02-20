@@ -64,6 +64,18 @@ body {
 
 /****************** HEADER ******************/
 
+.menu li.has-children > a:after {
+    color: var(--bs-lighter-text);
+    content: ' ▼';
+    font-size: 12.5px;
+    font-weight: bold;
+    vertical-align: 1px;
+
+    &:hover {
+        color: var(--bs-primary);
+    }
+}
+
 .header-row {
     padding: 0!important;
 }
@@ -96,6 +108,29 @@ body {
             list-style-type: none;
             padding: 0;
             margin: 0;
+
+            #menu-item-11 {
+                ul {
+                    display: none;
+                    background-color: var(--bs-primary-background);
+                    padding: 0 10px;
+
+                    :last-child {
+                        margin-bottom: 10px;
+                    }
+
+                    li {
+                        margin: 15px 0;
+                        list-style-type: none;
+                    }
+                }
+                
+                &:hover ul {
+                    display: block;
+                    position: absolute;
+                    z-index: 20;
+                }
+            }
     
             li {
                 margin: 0 15px;
@@ -684,6 +719,16 @@ body {
             }
         }
 
+        .secondary-block-buttons {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            #margin-for-button {
+                margin-left: 20px;
+            }
+        }
+
         .secondary-block-video {
             .showcase-video {
                 display: flex;
@@ -926,6 +971,12 @@ body {
 }
 
 /****************** MEDIA QUERIES ******************/
+
+@media (max-width: 1252px) {
+    .header .header-navigation {
+        width: 100%;
+    }
+}
 
 @media (max-width: 1199.98px) {
     .header .image-container {
@@ -1390,6 +1441,17 @@ body {
                     width: 560px;
                 }
             }
+        }
+    }
+
+    .secondary-block-component .row .secondary-block-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        #margin-for-button {
+            margin-left: 0;
+            margin-top: 30px;
         }
     }
 }

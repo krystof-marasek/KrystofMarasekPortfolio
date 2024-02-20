@@ -107,6 +107,25 @@ function krystof_marasek_register_menu_locations() {
 }
 add_action("after_setup_theme", "krystof_marasek_register_menu_locations");
 
+function oenology_add_menu_parent_class( $items ) {
+ 
+	$parents = array();
+	foreach ( $items as $item ) {
+	if ( $item->menu_item_parent && $item->menu_item_parent > 0 ) {
+	$parents[] = $item->menu_item_parent;
+	}
+	}
+	
+	foreach ( $items as $item ) {
+	if ( in_array( $item->ID, $parents ) ) {
+	$item->classes[] = 'has-children';
+	}
+	}
+	
+	return $items;
+   }
+add_filter( 'wp_nav_menu_objects', 'oenology_add_menu_parent_class' );
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
