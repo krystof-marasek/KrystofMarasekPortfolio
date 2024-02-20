@@ -24,7 +24,7 @@
 						</div>
     	  	      	</div>
     	  	    </div>
-                <div class="secondary-block-video col-lg-6 col-12 d-flex align-items-center">
+                <div class="secondary-block-video col-lg-6 col-12 d-flex align-items-center justify-content-center">
                     <div class="showcase-video" data-aos="fade-left" data-aos-duration="750">
                         <iframe width="560" height="315" src="<?php echo $project["video-link"]?>" title="<?php echo $project["video-title"]?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
