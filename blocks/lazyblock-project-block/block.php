@@ -14,11 +14,11 @@
                         </p>
 						<div class="secondary-block-buttons">
     	  	      	  		<div class="secondary-block-text-button d-flex justify-content-start align-item-center" data-aos="zoom-in-up">
-    		    				<a href="<?php echo $project["button-link"]?>"><button type="button" class="btn btn-primary" style="margin:0;"><?php echo $project["button-text"]?></button></a>
+    		    				<a href="<?php echo $project["button-link"]?>" target="_blank"><button type="button" class="btn btn-primary" style="margin:0;"><?php echo $project["button-text"]?></button></a>
     	  	      	  		</div>
 							<?php if ( isset( $project['button-2-link'] ) ) : ?>
 								<div id="margin-for-button" class="secondary-block-text-button d-flex justify-content-start align-item-center" data-aos="zoom-in-up" data-aos-delay="100">
-    		    					<a href="<?php echo $project["button-2-link"]?>"><button type="button" class="btn btn-primary" style="margin:0;"><?php echo $project["button-2-text"]?></button></a>
+    		    					<a href="<?php echo $project["button-2-link"]?>" target="_blank"><button type="button" class="btn btn-primary" style="margin:0;"><?php echo $project["button-2-text"]?></button></a>
     	  	      	  			</div>
 							<?php endif; ?>
 						</div>

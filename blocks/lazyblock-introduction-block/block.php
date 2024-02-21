@@ -17,7 +17,7 @@
 	  	      	  	</div>
 	  	      	</div>
 	  	    </div>
-            <div class="primary-block-video col-lg-6 col-12 d-flex align-items-center">
+            <div class="primary-block-video col-lg-6 col-12 d-flex align-items-center justify-content-center">
                 <div class="introduction-video">
                     <iframe width="560" height="315" src="<?php echo $attributes["video-link"]?>" title="<?php echo $attributes["video-title"]?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

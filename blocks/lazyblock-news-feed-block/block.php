@@ -44,7 +44,7 @@
 				        	<div class="card-body">
 				        	  	<h3 class="card-title"><?php echo $news["card-title"]?></h3>
 				        	  	<p class="card-text"><?php echo $news["card-text"]?></p>
-				    			<a href="<?php echo $news["button-link"]?>" data-aos="zoom-in-left" data-aos-duration="750">
+				    			<a href="<?php echo $news["button-link"]?>" target="_blank" data-aos="zoom-in-left" data-aos-duration="750">
                                     <button type="button" class="btn btn-primary" style="margin:0;"><?php echo $news["button-text"]?></button>
                                 </a>
 				        	</div>

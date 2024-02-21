@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                                 <div class="message-box">
-                                    <p class="contacts-text"><a href="<?php echo $attributes["linkedin-link"]?>"><?php echo $attributes["linkedin-name"]?></a></p>
+                                    <p class="contacts-text"><a href="<?php echo $attributes["linkedin-link"]?>" target="_blank"><?php echo $attributes["linkedin-name"]?></a></p>
                                 </div>
                             </div>
                         </div>

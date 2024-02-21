@@ -19,10 +19,10 @@
 					<div class="social-links">
                 	    <div class="social-container">
                 	        <div class="social">
-                	            <a href="https://linkedin.com/in/krystof-marasek" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.svg" alt=""></a>
-                	            <a href="https://www.youtube.com/channel/UCwCNVn2brnJdMAb2BgMHeBw" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.svg" alt=""></a>
-                	            <a href="https://krystof-marasek.itch.io" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/itchio.svg" alt=""></a>
-                	            <a href="https://github.com/krystof-marasek" target=”_blank”><img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt=""></a>
+                	            <a href="https://linkedin.com/in/krystof-marasek" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.svg" alt=""></a>
+                	            <a href="http://www.youtube.com/@krystofmarasek691" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.svg" alt=""></a>
+                	            <a href="https://krystof-marasek.itch.io" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/itchio.svg" alt=""></a>
+                	            <a href="https://github.com/krystof-marasek" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt=""></a>
                 	        </div>
                 	    </div>
                 	</div>
